@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/css/lightbox.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>Furniture Store</h1>
+            <div class="hamburguer-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav class="links">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#about-us">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#ones-to-watch">Featured Furniture</a>
+                    </li>
+                    <li>
+                        <a href="#special-offer">Special Offers</a>
+                    </li>
+                    <li>    
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div id="images-carousel">
+        <img src="./Images/slide1.jpg" alt="Living room furniture">
+        <img src="./Images/slide2.jpg" alt="Bedroom furniture">
+        <img src="./Images/slide3.jpg" alt="Dining room furniture">
+    </div>
+    <section>
+        <div class="container container-flex" id="about-us">
+            <div>
+                <h2>About Our Furniture Store</h2>
+                <p>Welcome to our Furniture Store, where we offer a wide range of high-quality furniture pieces to suit every taste and budget. From modern designs to classic styles, we have something for everyone.</p>
+                <p>Our mission is to provide our customers with exceptional furniture that combines comfort, style, and durability. Whether you're furnishing a new home or updating an existing space, we have the perfect pieces to make your house a home.</p>
+            </div>
+        </div>
+        <canvas id="granim-canvas"></canvas>
+    </section>
+    <nav class="content">
+        <section>
+            <div class="container" id="ones-to-watch">
+                <h2>Featured Furniture</h2>
+                <ul class="container-flex furniture-list">
+                    <li>
+                        <a href="./Images/sofa.jpg" data-lightbox="furniture" data-title="Modern Sofa">
+                            <img src="./Images/sofa.jpg" alt="Modern Sofa">
+                        </a>
+                        <h3>Modern Sofa</h3>
+                        <p>A stylish and comfortable modern sofa with high-quality upholstery, perfect for any living room. Available in various colors and fabrics to match your decor.</p>
+                        <div class="price">
+                            <strong>$900</strong>
+                        </div>                    
+                        <button type="button">I'm interested</button>
+                    </li>
+                    <li class="center-item">
+                        <a href="./Images/dining-set.jpg" data-lightbox="furniture" data-title="Elegant Dining Set">
+                            <img src="./Images/dining-set.jpg" alt="Dining Set">
+                        </a>
+                        <h3>Elegant Dining Set</h3>
+                        <p>This elegant dining set includes a sturdy table and six comfortable chairs, crafted from premium wood and designed to enhance your dining experience.</p>
+                        <div class="price">
+                            <strong>$1300</strong>
+                        </div>
+                        <button type="button">I'm interested</button>
+                    </li>
+                    <li>
+                        <a href="./Images/bed.jpg" data-lightbox="furniture" data-title="King Size Bed">
+                            <img src="./Images/bed.jpg" alt="King Size Bed">
+                        </a>
+                        <h3>King Size Bed</h3>
+                        <p>Experience luxury and comfort with our king size bed, featuring a solid frame and plush mattress for a perfect night's sleep.</p>
+                        <div class="price">
+                            <strong>$1500</strong>
+                        </div>
+                        <button type="button">I'm interested</button>
+                    </li>
+                    <li>
+                        <a href="./Images/bookshelf.jpg" data-lightbox="furniture" data-title="Bookshelf">
+                            <img src="./Images/bookshelf.jpg" alt="Bookshelf">
+                        </a>
+                        <h3>Bookshelf</h3>
+                        <p>A sleek and modern bookshelf with multiple shelves, ideal for organizing your books, decorative items, and more.</p>
+                        <div class="price">
+                            <strong>$300</strong>
+                        </div>                    
+                        <button type="button">I'm interested</button>
+                    </li>
+                    <li class="center-item">
+                        <a href="./Images/office-chair.jpg" data-lightbox="furniture" data-title="Ergonomic Office Chair">
+                            <img src="./Images/office-chair.jpg" alt="Office Chair">
+                        </a>
+                        <h3>Ergonomic Office Chair</h3>
+                        <p>Enhance your productivity with our ergonomic office chair, featuring adjustable height, lumbar support, and comfortable cushioning.</p>
+                        <div class="price">
+                            <strong>$200</strong>
+                        </div>
+                        <button type="button">I'm interested</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section>
+            <div class="container" id="special-offer">
+                <h2>Special Offers</h2>
+                <ul class="container-flex furniture-list">
+                    <li>
+                        <a href="./Images/coffee-table.jpg" data-lightbox="furniture" data-title="Modern Coffee Table">
+                            <img src="./Images/coffee-table.jpg" alt="Coffee Table">
+                        </a>
+                        <h3>Modern Coffee Table</h3>
+                        <p>A stylish coffee table with a tempered glass top and sturdy metal frame, perfect for any living room.</p>
+                        <div class="price">
+                            <del>$200</del>
+                            <strong>$180</strong>
+                        </div>
+                        <button type="button">I'm interested</button>
+                    </li>
+                    <li class="center-item">
+                        <a href="./Images/armchair.jpg" data-lightbox="furniture" data-title="Comfortable Armchair">
+                            <img src="./Images/armchair.jpg" alt="Armchair">
+                        </a>
+                        <h3>Comfortable Armchair</h3>
+                        <p>Relax in style with our comfortable armchair, featuring soft fabric and a supportive design.</p>
+                        <div class="price">
+                            <del>$400</del>
+                            <strong>$350</strong>
+                        </div>
+                        <button type="button">I'm interested</button>
+                    </li>
+                    <li>
+                        <a href="./Images/wardrobe.jpg" data-lightbox="furniture" data-title="Spacious Wardrobe">
+                            <img src="./Images/wardrobe.jpg" alt="Wardrobe">
+                        </a>
+                        <h3>Spacious Wardrobe</h3>
+                        <p>Keep your clothes organized with our spacious wardrobe, featuring multiple compartments and a sleek design.</p>
+                        <div class="price">
+                            <del>$800</del>
+                            <strong>$700</strong>
+                        </div>
+                        <button type="button">I'm interested</button>
+                    </li>
+                    <li>
+                        <a href="./Images/tv-stand.jpg" data-lightbox="furniture" data-title="TV Stand">
+                            <img src="./Images/tv-stand.jpg" alt="TV Stand">
+                        </a>
+                        <h3>TV Stand</h3>
+                        <p>A modern TV stand with ample storage space for your entertainment equipment and accessories.</p>
+                        <div class="price">
+                            <del>$300</del>
+                            <strong>$250</strong>
+                        </div>
+                        <button type="button">I'm interested</button>
+                    </li>
+                    <li class="center-item">
+                        <a href="./Images/outdoor-set.jpg" data-lightbox="furniture" data-title="Outdoor Furniture Set">
+                            <img src="./Images/outdoor-set.jpg" alt="Outdoor Furniture Set">
+                        </a>
+                        <h3>Outdoor Furniture Set</h3>
+                        <p>Enjoy the outdoors with our stylish outdoor furniture set, including a table, chairs, and cushions.</p>
+                        <div class="price">
+                            <del>$1200</del>
+                            <strong>$1000</strong>
+                        </div>
+                        <button type="button">I'm interested</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </nav>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="form-field" data-tippy-content="Please enter your full name">
+                    <label for="name">Full name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div class="form-field" data-tippy-content="Please enter your phone number">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-field" data-tippy-content="Please enter your email address">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-field" data-tippy-content="Please enter your address">
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address">
+                </div>
+                <div class="form-field" data-tippy-content="Please enter the furniture of interest">
+                    <label for="furniture">Furniture of interest:</label>
+                    <input type="text" id="furniture" name="furniture">
+                </div>
+                <div class="form-field" data-tippy-content="Please enter any additional comments">
+                    <label for="comment">Comments:</label>
+                    <textarea id="comment" name="comment"></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2024 &copy; Furniture Store - All rights reserved
+            </p>
+            <ul class="container-flex">
+                <li>
+                    <a href="">
+                        <img src="./Images/facebook.png" alt="Facebook">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./Images/instagram.png" alt="Instagram">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./Images/youtube.png" alt="YouTube">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.3/dist/js/lightbox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/places.js@1.18.1"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tippy.js/6.3.1/tippy.umd.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
